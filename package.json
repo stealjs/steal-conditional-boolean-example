@@ -1,0 +1,37 @@
+{
+  "name": "steal-conditional-boolean-example",
+  "version": "1.0.0",
+  "description": "steal-conditional boolean syntax demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "build": "steal-tools"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stealjs/steal-conditional-intl-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stealjs/steal-conditional-intl-example/issues"
+  },
+  "homepage": "https://github.com/stealjs/steal-conditional-intl-example#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "intl": "^1.2.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "steal": "^1.0.11",
+    "steal-conditional": "^0.3.2",
+    "steal-tools": "^1.0.3"
+  },
+  "steal": {
+    "paths": {
+      "intl": "./node_modules/intl/dist/Intl.js"
+    },
+    "configDependencies": [
+      "./node_modules/steal-conditional/conditional.js"
+    ]
+  }
+}
