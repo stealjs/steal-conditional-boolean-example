@@ -1,5 +1,7 @@
 # steal-conditional boolean syntax demo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stealjs/steal-conditional-boolean-example.svg)](https://greenkeeper.io/)
+
 Example app using steal-conditional's [boolean syntax](http://stealjs.com/docs/StealJS.guides.boolean_conditional_loading.html) to load the [JavaScript Internationalization API polyfill](https://github.com/andyearnshaw/Intl.js/) only for browsers that need it.
 
 The file structure of this demo looks like this:
